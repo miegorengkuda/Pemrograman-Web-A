@@ -1,4 +1,4 @@
-# Pemrograman Web A
+# Pemrograman Web (A)
 dokumentasi tugas ataupun project mata kuliah pemrograman web
 
 ### **Week 1**
