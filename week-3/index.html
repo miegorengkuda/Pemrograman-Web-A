@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <h3>Tabel Daftar Nilai Mahasiswa</h3>
+            <thead>
+                <tr>
+
+                    <th rowspan="2">No</th>
+                    <th rowspan="2">NPM</th>
+                    <th rowspan="2">Nama</th>
+                    <th colspan="2">Nilai</th>
+                </tr>
+
+                <tr>
+                    <th>UTS</th>
+                    <th>UAS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td>1</td>
+                    <td>06.100.001</td>
+                    <td>Amin A.Angkasa</td>
+                    <td>70</td>
+                    <td>80</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>2</td>
+                    <td>06.100.002</td>
+                    <td>Beni B. Bernardi</td>
+                    <td>70</td>
+                    <td>80</td>
+
+                </tr>
+            </tbody>
+        </table><br><br>
+
+    <h2>Registration Form</h2>
+    <form action="">
+        <label for="Firstname">Firstname:</label><br>
+        <input type="text" id="firstname" name="firstname"><br><br>
+
+        <label for="Middlename">Middlename:</label><br>
+        <input type="text" id="middlename" name="middlename"><br><br>
+
+        <label for="Lastname">Lastname:</label><br>
+        <input type="text" id="lastname" name="lastname"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="password">Re-type Password:</label><br>
+        <input type="password" id="password" name="Re-type password"><br><br>
+
+        <label for="contact">Contact:</label><br>
+        <input type="text" id="contact" name="contact"><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender">
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+        </select><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>
