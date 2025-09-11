@@ -1,0 +1,76 @@
+.wrap{
+	background: rgb(171, 171, 227);
+	width: 1000px;
+	margin: 10px auto;
+	border: solid white 2px;
+	font-family: Arial;
+
+	
+}
+ 
+/*bagian header*/
+.wrap .header{
+	background: rgb(233, 192, 115);
+	/*height: 50px;*/
+	padding: 2px 10px;
+	border: solid white 2px;
+}
+ 
+/*akhir header*/
+ 
+/*bagian menu*/
+.wrap .menu{
+	background: rgb(171, 171, 227);
+	
+}
+ 
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background: rgb(171, 171, 227);
+	overflow: hidden;
+	border: solid white 2px;
+}
+ 
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+/*akhir menu*/
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 450px;
+	border: solid white 2px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background: rgb(233, 192, 115);
+	float: left;	
+	width: 25%;
+	height: 100%;
+	text-align: center;
+	
+}
+
+/*akhir sidebar*/
+
+.wrap .badan .content{
+	background: rgb(235, 235, 176);
+	float: left;
+	height: 100%;
+	width: 75%;	
+	text-align: center;
+	
+}
+ 
+.wrap .footer{
+	width: 100%;
+	padding: 10px;
+	border: solid white 2px;
+
+}
