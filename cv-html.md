@@ -1,4 +1,8 @@
-### Membuat CV dengan HTML
+dokumentasi tugas ataupun project mata kuliah pemrograman web (A)
+
+Dafa Kumara Sahasika (5025241112)
+
+## Membuat CV dengan HTML
 Profil Dafa Kumara Sahasika yang memuat judul, deskripsi diri, foto profil, hobi, pendidikan, form kontak, serta sosial media.
 
 ### Hasil Screenshot CV
