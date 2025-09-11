@@ -1,3 +1,9 @@
+dokumentasi tugas ataupun project mata kuliah pemrograman web
+
+Dafa Kumara Sahasika (5025241112)
+
+## Typing Test
+
 _**Word per Minute**_ adalah ukuran untuk menghitung seberapa cepat seseorang mengetik dalam satu menit, dinyatakan dalam jumlah kata.
 Rata - rata untuk orang pada umumnya adalah sekitar 40 WPM.
 
