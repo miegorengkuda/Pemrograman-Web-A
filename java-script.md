@@ -12,4 +12,4 @@ JavaScript pada awal perkembangannya berfungsi untuk membuat interaksi antara us
 
 3. Membuat list dropdown dinamis
 
-dan ini untuk source dari
+dan ini untuk source dari [form registrasi](form_registrasi.html), [kode pos](kode_pos.html), dan [dropdown dinamis.](dropdown_dinamis.html)
