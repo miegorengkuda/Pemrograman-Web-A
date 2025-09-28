@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Dropdown Dinamis Elektronik</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 40px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+    }
+    
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+    
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 30px;
+      font-size: 28px;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: #555;
+    }
+    
+    select {
+      width: 100%;
+      padding: 12px 15px;
+      border: 2px solid #e1e5e9;
+      border-radius: 8px;
+      font-size: 16px;
+      background-color: #fff;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    
+    select:focus {
+      outline: none;
+      border-color: #667eea;
+      box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    }
+    
+    select:hover {
+      border-color: #667eea;
+    }
+    
+    .result {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      border-left: 4px solid #667eea;
+      display: none;
+    }
+    
+    @media (max-width: 768px) {
+      body {
+        padding: 20px;
+      }
+      
+      .container {
+        padding: 20px;
+      }
+      
+      h2 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h2>Dropdown Dinamis Elektronik</h2>
+
+  <select id="produk" onchange="updateMerk()">
+    <option value="">-- Pilih Produk --</option>
+    <option value="desktop">Desktop</option>
+    <option value="laptop">Laptop</option>
+    <option value="smartphone">Smartphone</option>
+  </select>
+
+  <select id="merk">
+    <option value="">-- Pilih Merek --</option>
+  </select>
+
+  <script>
+    const daftarMerk = {
+      desktop: ["Asus", "Lenovo", "Acer", "Mac", "MSI", "HP"],
+      laptop: ["Asus", "Lenovo", "Acer", "Macbook", "MSI", "Dell", "HP", "Razer", "Samsung", "Microsoft"],
+      smartphone: ["iPhone", "Samsung", "Xiaomi", "Oppo", "Vivo", "Realme", "OnePlus", "Google", "Sony", "Huawei", "Asus", "Motorola"],
+    };
+
+    function updateMerk() {
+      const produk = document.getElementById("produk").value;
+      const merkSelect = document.getElementById("merk");
+      
+      // Bersihkan opsi sebelumnya
+      merkSelect.innerHTML = '<option value="">-- Pilih Merek --</option>';
+
+      if (produk && daftarMerk[produk]) {
+        daftarMerk[produk].forEach(merk => {
+          const option = document.createElement("option");
+          option.value = merk.toLowerCase();
+          option.textContent = merk;
+          merkSelect.appendChild(option);
+        });
+      }
+    }
+  </script>
+</body>
+</html>
