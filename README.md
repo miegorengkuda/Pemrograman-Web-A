@@ -16,4 +16,4 @@ Dafa Kumara Sahasika (5025241112)
 [CSS - Membuat Course Programming Web](course-web-programming.md)
 
 ### **Week 5**
-[Java Script - membuat form registrasi, pencarian kode pos, dan dropdown dinamis](java-script.md)
+[Java Script - Membuat form registrasi, pencarian kode pos, dan dropdown dinamis](java-script.md)
