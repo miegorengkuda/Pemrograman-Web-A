@@ -17,3 +17,6 @@ Dafa Kumara Sahasika (5025241112)
 
 ### **Week 5**
 [Java Script - Membuat form registrasi, pencarian kode pos, dan dropdown dinamis](java-script.md)
+
+### **Week 6**
+[Bootstrap - Membuat haman content dan page yang berisi login](bootstrap.md)
