@@ -15,4 +15,4 @@ Bootstrap juga menyediakan komponen-komponen lain yang dibangun dengan menggunak
 2. Membuat page yang berisi login
 
 
-source code [content](), [login]().
+source code [content](bootstrap/content.html), [login](bootstrap/login.html).
