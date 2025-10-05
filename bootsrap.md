@@ -11,8 +11,11 @@ Bootstrap juga menyediakan komponen-komponen lain yang dibangun dengan menggunak
 
 1. Membuat Halaman Konten
 
-   
+   <img width="2000" height="1200" alt="image" src="https://github.com/user-attachments/assets/fa5ceaab-0f2e-446e-8e8f-d2cb71d41e2a" />
+
+
 2. Membuat page yang berisi login
 
+   <img width="2000" height="1200" alt="image" src="https://github.com/user-attachments/assets/e2b5ff5f-6f24-4a2e-b3c7-a923883b4aef" />
 
 source code [content](bootstrap/content.html), [login](bootstrap/login.html).
