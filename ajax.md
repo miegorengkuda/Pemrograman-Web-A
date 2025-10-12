@@ -16,4 +16,4 @@ berikut merupakan contoh penggunaannya dengan membuat submit form tanpa perlu re
 
 
 
-source code (ajax)[/ajax]
+source code (ajax)[ajax]
