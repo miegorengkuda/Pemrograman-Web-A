@@ -20,3 +20,6 @@ Dafa Kumara Sahasika (5025241112)
 
 ### **Week 6**
 [Bootstrap - Membuat haman content dan page yang berisi login](bootsrap.md)
+
+### **Week 7**
+[Ajax - Membuat submit form tanpa refresh layar](ajax.md)
