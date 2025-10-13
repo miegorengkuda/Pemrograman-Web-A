@@ -23,3 +23,6 @@ Dafa Kumara Sahasika (5025241112)
 
 ### **Week 7**
 [Ajax - Membuat submit form tanpa refresh layar](ajax.md)
+
+### **Week 8 - ETS**
+[Landing Page Jasa Travel](travel.md)
