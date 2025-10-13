@@ -21,3 +21,5 @@ Isi Landing Page:
 <img width="2740" height="1638" alt="image" src="https://github.com/user-attachments/assets/00e4d84a-71e8-4dfe-ba01-b795c2630c3c" />
 
 source [code](ets)
+
+Video [youtube.](https://youtu.be/Ik0BcLJwXGs)
