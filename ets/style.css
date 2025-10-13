@@ -1,4 +1,4 @@
-.body {
+body {
     font-family: 'Segoe UI', sans-serif;
     background-color: #f8fbff;
 }
@@ -25,8 +25,9 @@
     margin-bottom: 20px;
 }
 
-.footer {
+footer {
     background: #071d34;
     color: white;
     padding: 30px 0;
+
 }
