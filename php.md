@@ -1,4 +1,4 @@
-dokumentasi projek untuk evaluasi tengah semester
+dokumentasi projek atau tugas Pemrograman Web (A)
 
 Dafa Kumara Sahasika (5025241112)
 
@@ -29,4 +29,3 @@ Hasilnya:
 
 source [code](pendaftaran-siswa)
 
-[demo](pendaftaran-siswa/index.php)
