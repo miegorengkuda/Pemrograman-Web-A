@@ -27,4 +27,5 @@ Hasilnya:
 <img width="2769" height="731" alt="Screenshot 2025-10-26 114033" src="https://github.com/user-attachments/assets/8cb2a24d-53f1-4ad9-ab80-9fd08107e614" />
 <img width="2762" height="364" alt="image" src="https://github.com/user-attachments/assets/a84bbfa5-3231-41ae-8130-65e608ebe35d" />
 
-source [code](/pendaftaran-siswa)
+source [code](pendaftaran-siswa)
+[demo](pendaftaran-siswa/index.php)
