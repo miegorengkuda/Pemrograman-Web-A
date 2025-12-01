@@ -31,7 +31,7 @@ Dafa Kumara Sahasika (5025241112)
 [Latihan Backend menggunakan PHP](php.md)
 
 ### **Week 10**
-[Membuat Rancangan Proyek](rancangan-proyek.md)
+[Membuat Rancangan Proyek](spesifikasi-proyek.md)
 
 ### **Week 11**
 [Laundry Craft](laundry-craft.md)
@@ -46,6 +46,6 @@ Dafa Kumara Sahasika (5025241112)
 
 
 ### **Week 15**
-[Membuat File PDF](membuat-pdf.md)
+[Membuat File PDF](laporan-pdf.md)
 
 ## **Week 16 - EAS**
